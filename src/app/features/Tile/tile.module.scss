@@ -1,0 +1,46 @@
+@import "/src/assets/theme.scss";
+
+.tile_container{
+    width: 75rem;
+    height: 15rem;
+    background-color: $primary;
+    margin: 0.5rem;
+    display: flex;
+    flex: 20%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+
+    .tile_link{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        text-decoration: none;
+        padding: 0.25rem;
+
+        .tile_image{
+           width: 8rem;
+           
+        }
+
+        .tile_label{
+            text-decoration: none;
+            font-size: x-large;
+            color: $white;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width: 48em) {
+    .columns {
+      flex-wrap: nowrap;
+    }
+}
