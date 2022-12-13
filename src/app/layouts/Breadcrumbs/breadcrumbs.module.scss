@@ -1,0 +1,14 @@
+@import "/src/assets/theme.scss";
+
+
+.breadcrumbs_container {
+    background-color: $primary;
+
+    .breadcrumbs {
+        margin: 0;
+        display: flex;
+        align-self: start;
+        gap: 1rem;
+        list-style-type: none;
+    }
+}
