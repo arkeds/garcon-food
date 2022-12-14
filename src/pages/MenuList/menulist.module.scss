@@ -1,0 +1,7 @@
+@import "/src/assets/theme.scss";
+
+.food_items{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}

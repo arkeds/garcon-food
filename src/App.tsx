@@ -10,7 +10,6 @@ function App() {
     <>
       <BreadcrumbContextProvider>
         <Navbar />
-        <Breadcrumbs/>
         <RouterProvider router={router} />
       </BreadcrumbContextProvider>
     </>

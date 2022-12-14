@@ -2,13 +2,28 @@
 
 
 .breadcrumbs_container {
-    background-color: $primary;
-
+    background-color: $grey;
+    padding: 0.75rem;
     .breadcrumbs {
         margin: 0;
         display: flex;
         align-self: start;
         gap: 1rem;
         list-style-type: none;
+
+        .crumb{
+            display: flex;
+            flex-direction: row;
+            gap: 1em;
+
+            .crumb_current{
+                color: $mutedLink;
+            }
+
+            .crumb_link{
+                text-decoration: none;
+                color: $blueLink;
+            }
+        }
     }
 }

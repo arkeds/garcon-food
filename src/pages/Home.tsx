@@ -17,6 +17,7 @@ export default function Home() {
   return (
     <main className={styles.page_container}>
       <div className={styles.menu_container}>
+        
         <Tile imageUrl={OrderIcon} linkTo="/order-status" tileLabel="Order Status" />
         <Tile imageUrl={MenuIcon} linkTo="/menu" tileLabel="Menu" />
       </div>

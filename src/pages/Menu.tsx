@@ -11,7 +11,7 @@ export default function Menu() {
   useEffect(() => {
     breadcrumbContext?.setCrumbs([
       {path: '/home', label: 'Home'},
-      {path: '/menu', label: 'Menu'}
+      {path: '', label: 'Menu'}
     ])
 
     return () => {breadcrumbContext?.setCrumbs([])}
